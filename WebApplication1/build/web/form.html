@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="newcss.css"/>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <a href="index.html">Return</a>
+        <h1>Form</h1>
+        <form action="/Action.php" method="post">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="addr">Address:</label><br>
+            <input type="text" id="addr" name="addr"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <B>Select Book:</B>
+            <select name="Book">
+                <option value="Book A">
+                    Book A
+                </option>
+                <option value="BookB">
+                    Book B
+                </option>
+                <option value="BookC">
+                    Book C
+                </option>
+            </select>
+            <br>
+            <B>Select your favorite Beatles</B><br>
+            <input type="radio" id="John" name="beatles" value="John">
+            <label for="John">John</label><br>
+            <input type="radio" id="Paul" name="beatles" value="Paul">
+            <label for="Paul">Paul</label><br>
+            <input type="radio" id="George" name="beatles" value="George">
+            <label for="George">George</label><br>
+            <input type="radio" id="Ringo" name="beatles" value="Ringo">
+            <label for="Ringo">Ringo</label><br>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="Reset">Reset</button>
+          
+        </form>
+
+    </body>
+</html>
