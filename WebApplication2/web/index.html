@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="newcss.css"/>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        
+        <h1>Form</h1>
+        <form action="/Action.php" method="post">
+            <label for="fname">Full Name</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">ID:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <B>Select your Gender </B> <br>
+            <input type="radio" value="r1" checked name="Male">Male
+            <input type="radio" value="r2" checked name="Female">Female
+            <input type="radio" value="r3" checked name="Other">Other
+            <br>
+            <B>Select Field of Study:</B>
+            <select name="Book">
+                <option value="CS">
+                    CS
+                </option>
+                <option value="NE">
+                    NE
+                </option>
+                <option value="CE">
+                    CE
+                </option>
+            </select>
+            <br>
+            <input type="checkbox" name="c1" value="ON">Principle of EE1 <br>
+            <input type="checkbox" name="c2" value="ON">Computer Network <br>
+            <input type="checkbox" name="c3" value="ON">Web Application Development<br>
+            <input type="checkbox" name="c4" value="ON">Object Oriented Programming<br>
+            <input type="checkbox" name="c1" value="ON">Computer Graphics <br>
+            <textarea rows="10" name="tr1" cols="80"></textarea><br>
+            
+            <button type="submit">Submit</button> 
+            <button type="Reset">Reset</button>
+          
+        </form>
+
+    </body>
+</html>
