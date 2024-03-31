@@ -57,3 +57,33 @@ button {
 button:hover, button:active {
     background-color: red;
 }
+
+.nav{
+    background-color: grey;
+    overflow: hidden;
+}
+
+.nav a{
+    float: right;
+    color: grey;
+    text-align: center;
+    padding:20px 20px;
+    text-decoration: none;
+    font-size:17px;
+   
+}
+
+#home{
+    float:left;
+    
+}
+
+.nav a:hover{
+    background-color:red;
+    color:grey;
+}
+
+.nav a.active{
+    background-color: grey;
+    color:red;
+}
